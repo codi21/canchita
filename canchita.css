@@ -1,0 +1,63 @@
+
+* {
+    * margin : 0 ;
+    * padding : 0 ; 
+    * }
+
+.canchita {
+    width : 50vw;
+    height : 40vh;
+    background : green;
+    border : 2px solid black;
+    margin : auto;
+    position : relative;
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+}
+
+.arco {
+    width : 10%;
+    height : 40%;
+    border : 2px solid white;
+    position : absolute;
+}
+#arco2 {
+    margin-left : 91%;
+}
+#arco1 {
+    margin-left : -1%;
+}
+.circuloMedio{
+    width : 4rem;
+    height : 4rem;
+    border: 2px solid white;
+    position : absolute;
+    left : 45%;
+    top : 36%;
+    border-radius : 50%;
+    display : flex ;
+    justify-content : center ;
+    align-items: center;
+    align-content : center;
+}
+.punto{
+    background : white;
+    width : 10%;
+    height : 10%;
+    border-radius : 50%; 
+}
+.linea1 {
+    height : 35%;
+    border : 2px solid white;
+    position : absolute;
+    top : 0%;
+    left : 50%;
+}
+.linea2 {
+    height : 38%;
+    border : 2px solid white;
+    position : absolute;
+    top : 61%;
+    left : 50%;
+}
